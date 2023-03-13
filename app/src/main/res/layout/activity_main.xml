@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <EditText
+        android:id="@+id/edittext_input"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/hint_edit_text"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_to_m"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_yellow"
+            android:text="@string/btn_to_m" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_to_noticias"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_green"
+            android:text="@string/btn_to_noticias" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_to_pro_labore"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_green"
+            android:text="@string/btn_to_pro_labore" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_to_k"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_blue"
+            android:text="@string/btn_to_k" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_to_c"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_red"
+            android:text="@string/btn_to_c" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_to_somar"
+            android:layout_width="5dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_azulzinho"
+            android:text="@string/btn_to_somar" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_to_reset"
+            android:layout_width="5dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_azulzinho"
+            android:text="@string/btn_to_reset" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_to_subtrair"
+            android:layout_width="5dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_azulzinho"
+            android:text="@string/btn_to_subtrair" />
+    </LinearLayout>
+
+</LinearLayout>

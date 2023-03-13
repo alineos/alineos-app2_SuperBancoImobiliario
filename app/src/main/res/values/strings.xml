@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Super Banco Imobiliário</string>
+    <string name="hint_edit_text">Valor</string>
+    <string name="btn_to_m">M</string>
+    <string name="btn_to_k">K</string>
+    <string name="btn_to_c">C</string>
+    <string name="txt_funcoes">Funções</string>
+    <string name="btn_to_noticias">?</string>
+    <string name="btn_to_reset">. reset</string>
+    <string name="btn_to_pro_labore">{-</string>
+    <string name="exception_debit_invalid">Saldo insuficiente para essa operação</string>
+    <string name="exception_invalid_value">Valor invalido para essa operação</string>
+
+
+    <string name="btn_to_1"> 1 </string>
+    <string name="btn_to_2"> 2 </string>
+    <string name="btn_to_3"> 3 </string>
+    <string name="btn_to_4"> 4 </string>
+    <string name="btn_to_5"> 5 </string>
+    <string name="btn_to_6"> 6 </string>
+    <string name="btn_to_7"> 7 </string>
+    <string name="btn_to_8"> 8 </string>
+    <string name="btn_to_9"> 9 </string>
+    <string name="btn_to_0"> 0 </string>
+    <string name="btn_to_ponto">.</string>
+    <string name="btn_to_somar">+</string>
+    <string name="btn_to_subtrair">-</string>
+</resources>
